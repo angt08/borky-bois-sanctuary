@@ -1,12 +1,13 @@
 # borky-bois-sanctuary
 
 #### A dog sanctuary website mockup . 
-For a while I have loved the idea of havin a sanctuary for dogs, and while I'm not there **yet* I thought this would be a fun project for me to delve in. 
+For a while I have loved the idea of havin a sanctuary for dogs, and while I'm not there *yet* I thought this would be a fun project for me to delve in. 
 
+>
 So I layed out the Component Hierarchy:
 ![](wireframe-images/Dog-Sanctuary.png)
->
-This web app will be made using React with a Rails backend.
+
+##### This web app will be made using React with a Rails backend.
 >
 
 #### This will be  the landing/home page
