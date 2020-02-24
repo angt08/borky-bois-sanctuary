@@ -4,8 +4,8 @@
 For a while I have loved the idea of havin a sanctuary for dogs, and while I'm not there *yet* I thought this would be a fun project for me to delve in. 
 
 
-So I layed out the Component Hierarchy:
-![](wireframe-images/Dog-Sanctuary.png)
+#### So I layed out the Component Hierarchy:
+![](wireframe-images/flowchart.png)
 
 ##### This web app will be made using React with a Rails backend.
 
@@ -15,13 +15,13 @@ So I layed out the Component Hierarchy:
 
 
 Will feature Pooch of the week 
-![](wireframe-images/Pooch-week.png)
+![](wireframe-images/pooch-week.png)
 
 
 #### A list of Dogs ready to be adopted who've been in the sanctuary 
-![](wireframe-images/Adopt-a-dog.png)
+![](wireframe-images/adopt-a-dog.png)
 
 
 #### When you click on one of the dog images  there will be a pop window showing more information 
-![](wireframe-images/Adopt-a-dog–info.png)
+![](wireframe-images/adopt-dog–info.png)
 
