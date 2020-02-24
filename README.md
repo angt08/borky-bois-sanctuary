@@ -20,6 +20,11 @@ For a while I have loved the idea of havin a sanctuary for dogs, and while I'm n
 - Short Quiz for those who are wondering what kind of dog breed is suitable for them
 >
 
+` 
+I haven't yet decided if I will be implementing user auth login,
+since it is a dummy site, I mainly just want to make something that I can continue to add to and expand on.
+`
+
 ### This will be the landing/home page:
 ![](wireframe-images/home.png)
 
