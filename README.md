@@ -16,7 +16,7 @@ For a while I have loved the idea of havin a sanctuary for dogs, and while I'm n
 
 #### Will also feature Pooch of the week
 ![](wireframe-images/pooch-week.png)
-
+![](wireframe-images/adopt-a-dog.png)
 
 #### A list of Dogs ready to be adopted who've been in the sanctuary 
 ![](wireframe-images/adopt-a-dog.png)
