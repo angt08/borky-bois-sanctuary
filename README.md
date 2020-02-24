@@ -10,11 +10,11 @@ For a while I have loved the idea of havin a sanctuary for dogs, and while I'm n
 ##### This web app will be made using React with a Rails backend.
 
 
-#### This will be  the landing/home page
+#### This will be the landing/home page
 ![](wireframe-images/home.png)
 
 
-Will feature Pooch of the week 
+#### Will also  feature Pooch of the week:
 ![](wireframe-images/pooch-week.png)
 
 
