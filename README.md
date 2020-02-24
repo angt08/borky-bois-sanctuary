@@ -15,7 +15,7 @@ For a while I have loved the idea of havin a sanctuary for dogs, and while I'm n
 >
 #### Post  MVP Objectives:
 - An option to sign up for a newsletter
-- Volunteer page with application from.
+- Volunteer page with application form.
 - Dog api for breed information
 - Short Quiz for those who are wondering what kind of dog breed is suitable for them
 >
