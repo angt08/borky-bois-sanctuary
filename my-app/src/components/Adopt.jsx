@@ -5,11 +5,7 @@ const Adopt = (props) => {
   return (
     <div className="adopt">
 
-
-      <p>
-      </p>
-
-      <h3>Name:
+      <h3>
          {props.dog.name}
       </h3>
       <p>
@@ -23,7 +19,7 @@ const Adopt = (props) => {
         Days in Sanctuary:
         {props.dog.daysIn}
       </p>
-
+      <img id="" src={props.dog.image}/> 
     </div>
   )
 }
