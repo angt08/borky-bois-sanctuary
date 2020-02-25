@@ -21,7 +21,7 @@ const Adopt = (props) => {
       </p>
       <p>
         Days in Sanctuary:
-        {props.dog.days}
+        {props.dog.daysIn}
       </p>
 
     </div>

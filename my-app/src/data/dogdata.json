@@ -3,7 +3,7 @@
     "name": "Skylar",
     "breed": "Husky",
     "age": "3 yrs",
-    "days in sanctuary": "15",
+    "daysIn": "15",
     "image_url": " "
   },
   
@@ -11,7 +11,7 @@
     "name": "Chomp",
     "breed": "Border Collie",
     "age": "4 yrs",
-    "days in sanctuary": "9",
+    "daysIn": "9",
     "image_url": " "
   },
   
@@ -19,7 +19,7 @@
     "name": "Robert",
     "breed": "Black LAb",
     "age": "8",
-    "days in sanctuary": "52",
+    "daysIn": "52",
     "image_url": " "
  }
 
