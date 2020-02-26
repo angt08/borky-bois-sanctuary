@@ -1,6 +1,7 @@
 import React from 'react';
 import dogdata from './data/dogdata';
 import Adopt from './components/Adopt';
+
 import './App.css';
 
 
@@ -23,6 +24,7 @@ class App extends React.Component {
         return  <Adopt
           dog={item}
           key={index}
+       
         />
     })}
 

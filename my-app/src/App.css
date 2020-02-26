@@ -1,5 +1,5 @@
 .App {
-  margin: 0 ;
+  margin: 0 auto ;
   text-align: center;
   height: 200vh;
 }
@@ -8,20 +8,24 @@ h1{
  
 }
 h3{
-  width: 50%;
+  text-align: center;
+
  
 }
 
 .adopt{
-  color:black;
-  background-color: lightslategray;
- width: 45%;
- margin: auto;
+
+color:black;
+background-color: lightslategray;
+ width: 30%;
+ margin:0 auto;
  height:25em;
+ text-align: center;
 }
 img{
-width:8em;
-height:10em;
+margin:0 auto;
+width:12em;
+height:14em;
 }
 
 .App-header {
