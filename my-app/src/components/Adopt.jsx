@@ -3,9 +3,7 @@ import React from 'react'
 const Adopt = (props) => {
 
   return (
-    <div className="dog-grid">
-
-      <div className="adopt-adog">
+    <div  className="adopt-adog">
       <img src={props.dog.image} /> 
         <br/>
       <h3>
@@ -26,8 +24,7 @@ const Adopt = (props) => {
         </button>
 
        </div>
-       
-    </div>
+  
   )
 }
 export default Adopt

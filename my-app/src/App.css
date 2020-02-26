@@ -4,23 +4,28 @@
   height: 200vh;
 }
 h1{
-  margin-left:15em ;
- 
+  margin:auto;
+  
 }
 
 .header {
-color:white;
-background-color:#3D6118;
-width: 100%;
-height:10em;
-margin:0 auto;
+  color:white;
+  background-color:#3D6118;
+  width: 100%;
+  height:5em;
+  margin:0 auto;
 }
+a{
+  margin:2%;
+
+}
+
+
 .dog-grid{
-  margin:auto;
-  width:100%;
   display: grid;
   grid-template-columns:1fr 1fr 1fr;
- 
+  margin:auto;
+  width:100%;
 }
 
 .adopt-adog{
@@ -38,16 +43,7 @@ width:12em;
 height:14em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 
 /* 
