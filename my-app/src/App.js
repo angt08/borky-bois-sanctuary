@@ -1,7 +1,7 @@
 import React from 'react';
 import dogdata from './data/dogdata';
+import Header from './components/Header'
 import Adopt from './components/Adopt';
-
 import './App.css';
 
 
@@ -17,7 +17,9 @@ class App extends React.Component {
     
     return (
      
-      <div className="app">
+      <div className="App">
+       <Header/>
+       
       <h1>Angie's Borky Bois Sanctuary</h1>
        {dogdata.map((item, index) => {
         

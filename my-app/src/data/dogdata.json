@@ -22,7 +22,6 @@
     "daysIn": "52",
    "image": "/images/2sd.jpeg"
  },
- 
  {
   "name": "Skylar",
   "breed": "Husky",
@@ -45,6 +44,56 @@
   "age": "8",
   "daysIn": "52",
  "image": "/images/2sd.jpeg"
+},
+{
+  "name": "Skylar",
+  "breed": "Husky",
+  "age": "3 yrs",
+  "daysIn": "15",
+  "image": "/images/scoob.jpeg"
+},
+
+{
+  "name": "Robert",
+  "breed": "Black LAb",
+  "age": "8",
+  "daysIn": "52",
+ "image": "/images/courage.png"
+},
+
+{
+  "name": "Robert",
+  "breed": "Black LAb",
+  "age": "8",
+  "daysIn": "52",
+ "image": "/images/2sd.jpeg"
+},
+{
+  "name": "Skylar",
+  "breed": "Husky",
+  "age": "3 yrs",
+  "daysIn": "15",
+  "image": "/images/scoob.jpeg"
+},
+
+{
+  "name": "Robert",
+  "breed": "Black LAb",
+  "age": "8",
+  "daysIn": "52",
+ "image": "/images/courage.png"
+},
+
+{
+  "name": "Robert",
+  "breed": "Black LAb",
+  "age": "8",
+  "daysIn": "52",
+ "image": "/images/2sd.jpeg"
 }
+ 
+ 
+
+
 
 ]

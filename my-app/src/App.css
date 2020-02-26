@@ -7,22 +7,32 @@ h1{
   margin-left:15em ;
  
 }
-h3{
-  text-align: center;
 
+.header {
+color:white;
+background-color:#3D6118;
+width: 100%;
+height:10em;
+margin:0 auto;
+}
+.dog-grid{
+  margin:auto;
+  width:100%;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
  
 }
 
-.adopt{
-
-color:black;
-background-color: lightslategray;
- width: 30%;
- margin:0 auto;
- height:25em;
- text-align: center;
+.adopt-adog{
+  width:25em;
+  height:35em;
+  border:solid black 1px;
+  text-align: center;
+  margin:2em;
 }
+
 img{
+padding: 10%;
 margin:0 auto;
 width:12em;
 height:14em;

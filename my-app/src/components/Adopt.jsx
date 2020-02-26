@@ -3,12 +3,11 @@ import React from 'react'
 const Adopt = (props) => {
 
   return (
-    <div className="adopt">
+    <div className="dog-grid">
 
-      <img id="" src={props.dog.image} /> 
-
-
-        <div>
+      <div className="adopt-adog">
+      <img src={props.dog.image} /> 
+        <br/>
       <h3>
          {props.dog.name}
       </h3>
@@ -21,8 +20,13 @@ const Adopt = (props) => {
         Days in Sanctuary:
         {props.dog.daysIn}
         <br/>
-      </p>
-        </div>
+        </p>
+        <button>
+          About this pooch
+        </button>
+
+       </div>
+       
     </div>
   )
 }
