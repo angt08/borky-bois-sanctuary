@@ -1,33 +1,33 @@
 [
   {
-    "name": "Scoob",
-    "breed": "Husky",
+    "name": "Chomp",
+    "breed": "Border Collie",
     "age": "3 yrs",
     "daysIn": "15",
-    "image": "/images/scoob.jpeg"
+    "image": "/images/chomp.jpg"
   },
   
   {
     "name": "Robert",
-    "breed": "Black LAb",
+    "breed": "Black Lab",
     "age": "8",
     "daysIn": "52",
-   "image": "/images/courage.png"
+   "image": "/images/robert.jpg"
  },
   
   {
-    "name": "Robert",
-    "breed": "Black LAb",
-    "age": "8",
-    "daysIn": "52",
-   "image": "/images/2sd.jpeg"
+    "name": "Petunia",
+    "breed": "Poodle",
+    "age": "3",
+    "daysIn": "12",
+   "image": "/images/petunia.jpg"
  },
  {
-  "name": "Scoob",
+  "name": "Julian",
   "breed": "Husky",
-  "age": "3 yrs",
-  "daysIn": "15",
-  "image": "/images/scoob.jpeg"
+  "age": "4 yrs",
+  "daysIn": "25",
+  "image": "/images/julian.jpg"
 },
 
 {

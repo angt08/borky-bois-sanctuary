@@ -24,7 +24,6 @@ class App extends React.Component {
         {/* <Pow /> */}
 
         <div className="dog-grid">
-
           {dogdata.map((item, index) => {
 
             return <Adopt
