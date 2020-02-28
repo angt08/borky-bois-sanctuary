@@ -4,33 +4,32 @@ const Adopt = (props) => {
 
   return (
     <div className="adopt-adog">
+
+      {/* <div>
+        <h2>Adopt a Borky Boi</h2>
+        <h5> All dogs listed are  ready for adoption</h5>
+      </div> */}
+
+
       <img src={props.dog.image} />
-
-
-      <div className="dog-stats">
-
-        <br />
-        <h3>
-          {props.dog.name}
-        </h3>
-        <p>
-          Breed:
-        {props.dog.breed}
-          <br />
-          Age:
+      <h3>
+        {props.dog.name}
+      </h3>
+      Age:
         {props.dog.age}
-          <br />
-          Days in Sanctuary:
+
+      <p>
+        Days in Sanctuary:
         {props.dog.daysIn}
-          <br />
-        </p>
+        <br />
+        Breed:
+        {props.dog.breed}
+        <br />
+      </p>
 
-        <button>
-          More on this pooch
+      <button>
+        More on this pooch
         </button>
-      </div>
-
-
     </div>
 
   )

@@ -1,14 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+// import Adopt from './components/Adopt'
 
 export default function Header() {
   return (
     <div className="header">
 
       <h1>Angie's Borky Bois Sanctuary</h1>
-     <br/>
-     <a>adopt</a>
-     <a>blablab</a>
-     <a>blablab</a>
+      <br />
+      <Link to="/adopt-a-dog" className="nav-links">
+       Adopt
+      </Link>
+
+      <Link />
+
+
     </div>
   )
 }
