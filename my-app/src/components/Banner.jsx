@@ -9,7 +9,7 @@ export default function Banner() {
     
     <div className="banner">
     <img  id="borky-banner"  src={dogbeach} />
-    <p>Adopt a Borky Boi</p>
+    <p>Adopt a Borky Boy</p>
     <h4> All dogs listed are  ready for adoption</h4>
     </div> 
   )

@@ -11,18 +11,17 @@ const Adopt = (props) => {
       <h3>
         {props.dog.name}
       </h3>
-      Age:
-        {props.dog.age}
 
       <h5>
-        Days in Sanctuary:
-        {props.dog.daysIn}
+        Age:
+        {props.dog.age}
         <br />
         Breed:
-        {props.dog.breed}
+         {props.dog.breed}
         <br />
+        Days in Sanctuary:
+        {props.dog.daysIn}
       </h5>
-
       <button>
         More on this pooch
         </button>
