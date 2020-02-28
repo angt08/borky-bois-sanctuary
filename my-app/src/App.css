@@ -5,7 +5,7 @@ html{
 .App{
   width: 100%;
   text-align: center;
-  height: auto;
+  height:auto;
 } 
 h1{
   margin:auto; 
@@ -48,6 +48,9 @@ a{
   object-fit: cover;
   padding: 0;
 }
+#pow{
+  height:40rem;
+}
 
 
 
@@ -58,8 +61,8 @@ a{
   display: grid;
   grid-template-columns: 25em 25em 25em;
 }
-.adopt-adog{
 
+.adopt-adog{
   background-color: white;
   margin:1rem;
   width:20rem;
@@ -77,6 +80,8 @@ a{
   border-bottom-right-radius: 1em;
   border-bottom:solid white 1em;
 } */
+
+
 button{
   background-color: #072B3C;
   color:white;
