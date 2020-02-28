@@ -1,15 +1,16 @@
 import React from 'react';
-import dogbeach from '../images/dogbeach.jpg';
+import dogbeach from '../banners/dogbeach.jpg'
+
 
 
 
 export default function Banner() {
   return (
-
+    
     <div className="banner">
-    <img   src={dogbeach} />
-    <h2>Adopt a Borky Boi</h2>
-    <h5> All dogs listed are  ready for adoption</h5>
+    <img  id="borky-banner"  src={dogbeach} />
+    <p>Adopt a Borky Boi</p>
+    <h4> All dogs listed are  ready for adoption</h4>
     </div> 
   )
 }

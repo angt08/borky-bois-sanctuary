@@ -6,12 +6,7 @@ import Pow from './components/Pow';
 import Banner from './components/Banner';
 import Adopt from './components/Adopt';
 import { Route, Link } from "react-router-dom";
-
-// import dogbeach from './public/images/dogbeach.jpg'
-
-
-
-
+// import images from '../src/images/chomp.jpg'
 
 
 class App extends React.Component {
@@ -44,6 +39,7 @@ class App extends React.Component {
           path="/adopt-a-dog"
           render={() =>
             <div className="dog-grid">
+
               {dogdata.map((item, index) => {
                 return <Adopt
                   dog={item}

@@ -5,10 +5,6 @@ const Adopt = (props) => {
   return (
     <div className="adopt-adog">
 
-      {/* <div>
-        <h2>Adopt a Borky Boi</h2>
-        <h5> All dogs listed are  ready for adoption</h5>
-      </div> */}
 
 
       <img src={props.dog.image} />
@@ -18,14 +14,14 @@ const Adopt = (props) => {
       Age:
         {props.dog.age}
 
-      <p>
+      <h5>
         Days in Sanctuary:
         {props.dog.daysIn}
         <br />
         Breed:
         {props.dog.breed}
         <br />
-      </p>
+      </h5>
 
       <button>
         More on this pooch
