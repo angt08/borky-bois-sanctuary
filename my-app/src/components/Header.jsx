@@ -4,16 +4,22 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
+
     <div className="header">
 
+       <br/>
       <h1>Angie's Borky Bois Sanctuary</h1>
       <br />
+      <Link to="/info" className="nav-links">
+     INFO
+      </Link>
       <Link to="/adopt-a-dog" className="nav-links">
-       Adopt
+       ADOPT
       </Link>
 
-      <Link />
-
+      <Link to="/pooch-of-the-week" className="nav-links">
+      POW
+      </Link>
 
     </div>
   )
