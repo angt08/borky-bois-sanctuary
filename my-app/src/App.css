@@ -1,6 +1,6 @@
 html{
   margin:0;
-  background-color: whitesmoke;
+  background-color:  #12212B;
 }
 .App{
   width: 100%;
@@ -13,7 +13,8 @@ h1{
 }
 .header {
   color:white;
-  background-color:#072B3C;
+  background-color:#242F40;
+  ;
   width: 100%;
   height:8em;
   padding:.7em;
@@ -21,11 +22,11 @@ h1{
 
 h4{
 margin-top: -2%;
-color:rgb(114, 101, 86);
+/* color:rgb(114, 101, 86); */
 }
 
 p{
-  color:#C07A29;
+  color:#D67775;
   margin-top:-30%;
   font-size: 3.5rem;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -71,13 +72,17 @@ a{
 }
 
 .adopt-adog{
-  background-color: white;
+  background-color: whitesmoke;
   margin:1rem;
   width:20rem;
   height:35rem;
   text-align: center;
   border-radius: 1em;
   border-top:solid whitesmoke .1em;
+
+  -webkit-box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
+-moz-box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
+box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
 }
 /* .dog-stats{
   height:10rem;
@@ -91,7 +96,7 @@ a{
 
 
 button{
-  background-color: #072B3C;
+  background-color: #1F4D28;
   color:white;
   border-radius: 1em;
   width:8rem;
@@ -115,4 +120,11 @@ margin:auto;
 font-size: 1.2em;
 overflow: hidden;
 
+}
+
+.pow{
+  padding: 2%;
+  background-color: #F3F3F7;
+  width: 50%;
+  margin:auto;
 }

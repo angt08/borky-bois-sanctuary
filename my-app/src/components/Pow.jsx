@@ -6,12 +6,12 @@ export default function Pow(props) {
 
   return (
 
-    <div>
+    <div >
       <img id="field-banner" src={field} />
 
-      <h3> Pooch of the week: </h3>
 
-      <div id="pow">
+      <div className="pow">
+      <h3> Pooch of the week: </h3>
         <img id="robert" src={robert} />
 
         <div id="pow-info">
