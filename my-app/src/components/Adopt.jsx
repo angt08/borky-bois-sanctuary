@@ -5,8 +5,6 @@ const Adopt = (props) => {
   return (
     <div className="adopt-adog">
 
-
-
       <img src={props.dog.image} />
       <h3>
         {props.dog.name}
