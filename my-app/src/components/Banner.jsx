@@ -2,8 +2,6 @@ import React from 'react';
 import dogbeach from '../banners/dogbeach.jpg'
 
 
-
-
 export default function Banner() {
   return (
     
