@@ -8,14 +8,16 @@ export default function Pow(props) {
   return (
 
    
-      <div className="pow">
-        <img id="robert" src={robert} />
-
+    <div className="pow">
+      
+      <img id="robert" src={robert} />
+      
         <div id="pooch-description">
          
             I have ever seen doggo he made many woofs, noodle horse very jealous pupper doge.
           Big ol pupper what a nice floof h*ck you are doing me 
-            <br />
+          <br />
+         
             the shock heckin good boys and girls boof, corgo you are
           doing me a frighten long water shoob thicc floofs.
           <br />

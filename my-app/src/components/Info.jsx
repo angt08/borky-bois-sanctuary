@@ -7,12 +7,15 @@ export default function Info() {
 
       <div id="info-div">
 
-        <p>
-        Welcome toabobfeiheiohiaj
+        <p id="info-ptag">
+        Welcome to Angie's home for borky boys.
          <br/>
-        fiejaeklfafk seo rhehr hreuh
+        Here, we've made a home for dogs who need a 
+        temporary place to live happy dog lives.
          <br/>
-        lsehifehfioejfiosejfisefjesf 
+         <br/>
+        Look around maybe you will find your next dog companion with us!
+      
       </p>
 
     </div>

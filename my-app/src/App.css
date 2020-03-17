@@ -9,11 +9,12 @@ html{
   /* height:auto; */
 } 
 h1{
+  font-size: 2em;
   font-family: 'PT Sans Narrow', sans-serif;
   margin:auto; 
 }
 .header {
-  position: ;
+  /* position: ; */
   color:white;
   background-color:#3D6118;
   width: 100%;
@@ -44,10 +45,20 @@ a{
   height: 40rem;
   background-size: cover;
 }
+
+#banner-info{
+  color:rgb(13, 48, 77);
+  padding:8rem;
+  font-size: 3em;
+  margin:auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
 .pow-banner{
   width: 100%;
   /* position: absolute; */
-  color: #131715;
+
   background-image: url(/static/media/field.ef76ff80.jpg);
   /* background-attachment: fixed; */
   background-position: center;
@@ -65,14 +76,33 @@ a{
   background-size: cover;
 }
 #info-div {
-  color:white;
-  margin-top:25em ;
+  padding:1.1rem;
+  font-size: 1.2em;
   margin-left:3.5em;
-  width:30%;
-  height:10rem;
-  opacity: .7;
-  background-color: blue;
+  margin-top:15em ;
+  width:20em;
+  height:15rem;
+  z-index: -1;
+  opacity: .6;
+  background-color: rgb(35, 58, 12);
+  font-family: 'PT Sans Narrow', sans-serif;
+
+-webkit-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
+-moz-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
+box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
 } 
+#info-ptag{
+  font-size: 1.2em;
+  color:white;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+
+
+
 
 /*  Adopt Page css here */
 .dog-grid{
@@ -145,16 +175,8 @@ button{
   object-fit: cover;
 }
 
-#pow{
-  
-  height:60rem;
- 
-}
-#pow-h3{
-  color:white;
-  font-size: 3em;
-  /* margin:10%; */
-}
+
+
 
 #pooch-description{
   text-align: left;

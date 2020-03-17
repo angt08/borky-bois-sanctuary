@@ -8,7 +8,7 @@ export default function Header() {
     <div className="header">
 
        <br/>
-      <h1>Angie's Borky Bois Sanctuary</h1>
+      <h1>Angie's Borky Boys Sanctuary</h1>
       <br />
       <Link to="/info" className="nav-links">
      INFO
