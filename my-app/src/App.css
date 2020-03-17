@@ -6,7 +6,7 @@ html{
   width: 100%;
   overflow: hidden;
   text-align: center;
-  height:auto;
+  /* height:auto; */
 } 
 h1{
   font-family: 'PT Sans Narrow', sans-serif;
@@ -34,33 +34,30 @@ a{
 /* Banner css go here */
 
 .banner{
-  color:#131715;
-  z-index: -1;
-  margin-bottom: 5%;
-  background-image: url('./banners/dogbeach.jpg');
-  background-attachment: fixed;
+  width: 100%;
+  /* position: absolute; */
+  margin-bottom: 5rem;
+  background-image: url(/static/media/dogbeach.183e8e5a.jpg);
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
-  height:60rem;
+  height: 40rem;
   background-size: cover;
 }
 .pow-banner{
-  color:#131715;
-  z-index: -1;
-  margin-bottom: 5%;
-  background-image: url('./banners/field.jpg');
-  background-attachment: fixed;
+  width: 100%;
+  /* position: absolute; */
+  color: #131715;
+  background-image: url(/static/media/field.ef76ff80.jpg);
+  /* background-attachment: fixed; */
   background-position: center;
-  height:35rem;
+  height: 30rem;
   background-size: cover;
 }
 
 .info-banner{
   position: absolute;
   width: 100%;
-  /* color: #131715; */
-  /* z-index: -1; */
-  margin-bottom: 5%;
   background-image: url(/static/media/dogmix.8c38dcdf.jpg);
   /* background-attachment: fixed; */
   background-position: center;
@@ -81,6 +78,7 @@ a{
 .dog-grid{
   margin: 10%;
   display: grid;
+  margin-top: 5em;
   grid-template-columns: 25em 25em 25em;
 }
 
@@ -148,6 +146,7 @@ button{
 }
 
 #pow{
+  
   height:60rem;
  
 }

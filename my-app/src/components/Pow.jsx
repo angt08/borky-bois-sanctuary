@@ -7,8 +7,7 @@ export default function Pow(props) {
 
   return (
 
-    <div>
-    
+   
       <div className="pow">
         <img id="robert" src={robert} />
 
@@ -28,6 +27,6 @@ export default function Pow(props) {
         </div>
 
       </div>
-    </div>
+   
   )
 }
