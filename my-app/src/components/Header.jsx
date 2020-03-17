@@ -7,12 +7,13 @@ export default function Header() {
 
     <div className="header">
 
-       <br/>
       <h1>Angie's Borky Boys Sanctuary</h1>
-      <br />
+    
+      <div className="nav"> 
       <Link to="/info" className="nav-links">
-     INFO
+        INFO
       </Link>
+      
       <Link to="/adopt-a-dog" className="nav-links">
        ADOPT
       </Link>
@@ -20,6 +21,7 @@ export default function Header() {
       <Link to="/pooch-of-the-week" className="nav-links">
       POW
       </Link>
+</div>
 
     </div>
   )

@@ -11,14 +11,15 @@ html{
 h1{
   font-size: 2em;
   font-family: 'PT Sans Narrow', sans-serif;
-  margin:auto; 
+  margin-left:2em; 
 }
 .header {
+  display: flex;
   /* position: ; */
   color:white;
   background-color:#3D6118;
   width: 100%;
-  height:8em;
+  height:5em;
   padding:.7em;
 }
 
@@ -28,15 +29,30 @@ margin-top: -2%;
 }
 
 a{
-  margin:2%;
+  margin:10%;
   color:white;
   text-decoration: none;
 }
+
+.nav{
+  width: 40%;
+  padding: 2em;
+  margin-left: 5em;
+}
+
+
+
+
+
+
+
+
+
 /* Banner css go here */
 
 .banner{
   width: 100%;
-  /* position: absolute; */
+  position: relative;
   margin-bottom: 5rem;
   background-image: url(/static/media/dogbeach.183e8e5a.jpg);
   /* background-attachment: fixed; */
@@ -56,15 +72,42 @@ a{
 
 
 .pow-banner{
+  display: inline-block;
   width: 100%;
-  /* position: absolute; */
-
-  background-image: url(/static/media/field.ef76ff80.jpg);
+  position: relative;
   /* background-attachment: fixed; */
   background-position: center;
   height: 30rem;
   background-size: cover;
+  background-image: url(/static/media/field.ef76ff80.jpg);
 }
+
+#pow-div{
+
+  margin-top:5em ;
+  margin-left: auto;
+  margin-right: auto;
+  width:35em;
+  height:10em;
+  padding:1.1rem;
+  opacity: .6;
+  z-index: -1;
+  background-color: rgb(35, 58, 12);
+  -webkit-box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
+  -moz-box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
+  box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
+}
+
+#pow-ptag {
+  font-size: 1.2em;
+  z-index: 1;
+  color:white;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
 
 .info-banner{
   position: absolute;

@@ -6,9 +6,10 @@ export default function Banner() {
     <div className="banner">
 
       <p id="banner-info"> 
-        Adopt a Borky Boy
+   
          <br/>
-        All dogs listed are  ready for adoption
+        All dogs listed below are 
+         ready for adoption!
      </p>
       
     </div> 
