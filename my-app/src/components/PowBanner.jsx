@@ -1,10 +1,9 @@
 import React from 'react'
-// import field from '../banners/field.jpg';
 
 export default function PowBanner() {
+
   return (
-    <div className="banner">
-      {/* <img id="borky-banner" src={field} /> */}
+    <div className="pow-banner">
       
       <div>
         <>
