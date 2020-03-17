@@ -6,7 +6,7 @@ export default function Banner() {
     <div className="banner">
 
       <p id="banner-info"> 
-   
+       
          <br/>
         All dogs listed below are 
          ready for adoption!

@@ -19,7 +19,7 @@ export default function Header() {
       </Link>
 
       <Link to="/pooch-of-the-week" className="nav-links">
-      POW
+      Borky of the week
       </Link>
 </div>
 

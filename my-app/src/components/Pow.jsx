@@ -7,17 +7,20 @@ export default function Pow(props) {
 
   return (
 
-   
+
     <div className="pow">
+
+  
       
+
       <img id="robert" src={robert} />
-      
-        <div id="pooch-description">
-         
-            I have ever seen doggo he made many woofs, noodle horse very jealous pupper doge.
-          Big ol pupper what a nice floof h*ck you are doing me 
+
+      <div id="pooch-description">
+
+        I have ever seen doggo he made many woofs, noodle horse very jealous pupper doge.
+        Big ol pupper what a nice floof h*ck you are doing me
           <br />
-         
+
             the shock heckin good boys and girls boof, corgo you are
           doing me a frighten long water shoob thicc floofs.
           <br />
@@ -28,7 +31,7 @@ export default function Pow(props) {
           Days in Sanctuary: 35
         </div>
 
-      </div>
-   
+    </div>
+
   )
 }
