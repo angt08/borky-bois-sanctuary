@@ -10,7 +10,7 @@ export default function Info() {
         <p id="info-ptag">
         Welcome to Angie's home for borky boys.
          <br/>
-        Here, we've made a home for dogs who need a 
+        We've made a home for dogs who need a 
         temporary place to live happy dog lives.
          <br/>
          <br/>
