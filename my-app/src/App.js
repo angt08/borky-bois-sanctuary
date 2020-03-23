@@ -8,7 +8,8 @@ import Banner from './components/Banner';
 import PowBanner from './components/PowBanner';
 import Adopt from './components/Adopt';
 import { Route, Link } from "react-router-dom";
-// import robert from '../images/robert.jpg';
+// import *  from '/images'
+import robert from './images/robert.jpg';
 
 
 class App extends React.Component {
@@ -49,10 +50,11 @@ class App extends React.Component {
 
             <div className="dog-grid">
              
-              {dogdata.map((item, index) => {
+              {dogdata.map((item, index,image) => {
                 return <Adopt
                   dog={item}
                   key={index}
+                  image={image}
                 />
               })}
             </div>

@@ -1,8 +1,6 @@
 import React from 'react';
-
 import robert from '../banners/robert.jpg';
-// import PowBanner from './components/PowBanner'
-// my-app/public/images/robert.jpg
+
 export default function Pow(props) {
 
   return (
@@ -10,18 +8,15 @@ export default function Pow(props) {
 
     <div className="pow">
 
-  
-      
-
       <img id="robert" src={robert} />
 
       <div id="pooch-description">
 
-        I have ever seen doggo he made many woofs, noodle horse very jealous pupper doge.
+        I have ever seen doggo he made many woofs, noodle
+        horse very jealous pupper doge.
         Big ol pupper what a nice floof h*ck you are doing me
           <br />
-
-            the shock heckin good boys and girls boof, corgo you are
+          the shock heckin good boys and girls boof, corgo you are
           doing me a frighten long water shoob thicc floofs.
           <br />
           Age:7

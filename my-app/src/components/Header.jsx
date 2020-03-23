@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import Adopt from './components/Adopt'
 
 export default function Header() {
   return (

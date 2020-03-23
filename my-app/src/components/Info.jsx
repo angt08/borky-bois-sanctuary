@@ -12,9 +12,10 @@ export default function Info() {
          <br/>
         We've made a home for dogs who need a 
         temporary place to live happy dog lives.
+        
          <br/>
-         <br/>
-        Look around maybe you will find your next dog companion with us!
+        Look around maybe you will find your 
+        next dog companion with us!
       
       </p>
 

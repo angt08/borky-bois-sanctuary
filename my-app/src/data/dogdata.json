@@ -1,6 +1,5 @@
 
-
-[
+  [
   {
     "name": "Chomp",
     "breed": "Border Collie",
@@ -24,7 +23,8 @@
     "age": "3",
     "daysIn": "12",
    "image": "/images/petunia.jpg"
- },
+  },
+  
  {
   "name": "Julian",
   "breed": "Husky",
@@ -47,7 +47,8 @@
   "age": "8",
   "daysIn": "52",
  "image": "/images/2sd.jpeg"
-},
+  },
+
 {
   "name": "Scoob",
   "breed": "Husky",
@@ -95,8 +96,5 @@
  "image": "/images/2sd.jpeg"
 }
  
- 
-
-
 
 ]
