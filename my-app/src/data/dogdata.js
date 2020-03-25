@@ -3,6 +3,9 @@
   import petunia from '../images/petunia.jpg'
   import julian from '../images/julian.jpg'
   import scoob from '../images/scoob.jpeg'
+  import courage from '../images/courage.png'
+
+
 const dogdata = [
   {
     "name": "Chomp",
@@ -43,6 +46,13 @@ const dogdata = [
   "age": "3 yrs",
   "daysIn": "15",
   "image": `${scoob}`
-}
+  },
+  {
+    "name": "Courage",
+    "breed": "Pinky dog",
+    "age": "8 yrs",
+    "daysIn": "76",
+    "image": `${courage}`
+    }
   ]
 export default dogdata;
