@@ -8,8 +8,11 @@ import Banner from './components/Banner';
 import PowBanner from './components/PowBanner';
 import Adopt from './components/Adopt';
 import { Route, Link } from "react-router-dom";
-// import *  from '/images'
-import robert from './images/robert.jpg';
+import Robert from './images/robert.jpg';
+
+
+
+
 
 
 class App extends React.Component {
@@ -19,6 +22,13 @@ class App extends React.Component {
 
     }
   }
+
+
+  
+
+
+
+
 
   render() {
 
@@ -50,11 +60,11 @@ class App extends React.Component {
 
             <div className="dog-grid">
              
-              {dogdata.map((item, index,image) => {
+              { dogdata.map((item) => {
                 return <Adopt
                   dog={item}
-                  key={index}
-                  image={image}
+                  // key={index}
+                   
                 />
               })}
             </div>
