@@ -42,7 +42,7 @@ const dogdata = [
 
 {
   "name": "Scoob",
-  "breed": "Husky",
+  "breed": "Great Dane",
   "age": "3 yrs",
   "daysIn": "15",
   "image": `${scoob}`

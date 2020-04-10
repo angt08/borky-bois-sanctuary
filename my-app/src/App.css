@@ -1,6 +1,6 @@
 html{
   margin:0;
-  background-color:  #66943E;
+  /* background-color:  #66943E; */
 }
 .App{
   width: 100%;
@@ -9,18 +9,19 @@ html{
   /* height:auto; */
 } 
 h1{
-  font-size: 2em;
-  font-family: 'PT Sans Narrow', sans-serif;
-  margin-left:2em; 
+  font-size: 3em;
+  font-family: 'Amatic SC', cursive;
+  margin-left:1.2em; 
 }
 .header {
   display: flex;
   /* position: ; */
   color:white;
-  background-color:#3D6118;
+  /* background-color:#3D6118; */
   width: 100%;
-  height:5em;
+  height:5.5em;
   padding:.7em;
+  background-image: linear-gradient(to left bottom, #0f7719, #378d20, #56a427, #76bb2f, #96d236);
 }
 
 h4{
@@ -37,6 +38,9 @@ a{
 .nav{
   width: 40%;
   padding: 2em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
   margin-left: 5em;
 }
 
@@ -133,7 +137,9 @@ a{
   margin-top:15em ;
   width:20em;
   height:15rem;
-  background-color: rgba(35, 58, 12,0.5) ;
+  background-color: rgba(89, 152, 26, 0.5) ;
+ 
+ 
   font-family: 'PT Sans Narrow', sans-serif;
 
 -webkit-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
@@ -161,7 +167,8 @@ box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
 }
 
 .adopt-adog{
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-image: linear-gradient(to bottom, #0f7719, #378d20, #56a427, #76bb2f, #96d236);
   margin:1rem;
   width:20rem;
   height:35rem;
