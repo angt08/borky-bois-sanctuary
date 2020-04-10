@@ -15,7 +15,7 @@ h1{
 }
 .header {
   display: flex;
-  /* position: ; */
+
   color:white;
   /* background-color:#3D6118; */
   width: 100%;
@@ -30,18 +30,20 @@ margin-top: -2%;
 }
 
 a{
-  margin:10%;
+  margin:3%;
   color:white;
   text-decoration: none;
 }
 
-.nav{
-  width: 40%;
+.nav {
+  width: 45%;
+  margin-top: 1%;
   padding: 2em;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: 600;
-  font-size: 1.5em;
-  margin-left: 5em;
+  font-family: 'Open Sans Condensed', sans-serif;  
+  font-weight: 700;
+  font-size: 1.3em;
+  
+
 }
 
 
@@ -62,16 +64,19 @@ a{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 35rem;
   background-size: cover;
 }
 
 #banner-info{
-  color:rgb(13, 48, 77);
+  /* color:rgb(13, 48, 77); */
+  color: #b5eb5d;
+  text-shadow: 1px 1px 2px rgb(12, 49, 19);
   padding:7rem;
-  font-size: 3em;
+  font-size: 3.2em;
   margin:auto;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 600;
 }
 
 
@@ -91,8 +96,8 @@ a{
   font-size: 1.4em;
   color:white;
   text-align: left;
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #pow-div{
@@ -138,9 +143,7 @@ a{
   width:20em;
   height:15rem;
   background-color: rgba(89, 152, 26, 0.5) ;
- 
- 
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 
 -webkit-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
 -moz-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
@@ -150,8 +153,8 @@ box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
   font-size: 1.2em;
   color:white;
   text-align: left;
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 
@@ -238,7 +241,10 @@ button{
   width: 70%;
   height:18em;
   margin:auto;
-  font-size: 1.3em;
+  font-size:1.5em;
+  font-weight: 500;
+
+  font-family: 'Open Sans Condensed', sans-serif;
   overflow: hidden;
   background-color: #F3F3F7;
   border-radius: 1em;

@@ -10,7 +10,7 @@ export default function Header() {
     
       <div className="nav"> 
       <Link to="/info" className="nav-links">
-        INFO
+       ABOUT US
       </Link>
       
       <Link to="/adopt-a-dog" className="nav-links">
@@ -18,7 +18,7 @@ export default function Header() {
       </Link>
 
       <Link to="/pooch-of-the-week" className="nav-links">
-      Borky of the week
+      BORKY OF THE WEEK
       </Link>
 </div>
 
