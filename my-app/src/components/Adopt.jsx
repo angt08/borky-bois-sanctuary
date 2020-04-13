@@ -6,12 +6,13 @@ const Adopt = (props) => {
     <div className="adopt-adog">
 
       <img id="all-dogs" src={props.dog.image} alt="dog" />
-      <h3>
+      
+      <p id="dog-name">
         {props.dog.name}
-      </h3>
+      </p>
 
-      <h5>
-        Age:
+      <p id="dog-stats">
+        Age: 
         {props.dog.age}
         <br />
         Breed:
@@ -19,7 +20,7 @@ const Adopt = (props) => {
         <br />
         Days in Sanctuary:
         {props.dog.daysIn}
-      </h5>
+      </p>
       <button>
         More on this pooch
         </button>

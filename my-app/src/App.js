@@ -9,6 +9,7 @@ import PowBanner from './components/PowBanner';
 import Adopt from './components/Adopt';
 import { Route, Link } from "react-router-dom";
 import Robert from './images/robert.jpg';
+import Footer from './components/Footer';
 
 
 
@@ -79,7 +80,7 @@ class App extends React.Component {
             </>
           }
         />
-        
+        <Footer/>
 
 
       </div>
