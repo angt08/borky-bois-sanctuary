@@ -70,12 +70,15 @@ a{
 
 #banner-info{
   /* color:rgb(13, 48, 77); */
-  color: #b5eb5d;
-  text-shadow: 1px 1px 2px rgb(12, 49, 19);
+  color: #0f7719;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+
   padding:7rem;
-  font-size: 3.2em;
+  font-size: 4em;
   margin:auto;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+
 font-weight: 600;
 }
 
@@ -93,8 +96,8 @@ font-weight: 600;
 }
 
 #pow-ptag {
-  font-size: 1.4em;
-  color:white;
+  font-size: 1.5em;
+ color:white;
   text-align: left;
   font-weight: 600;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -104,20 +107,27 @@ font-weight: 600;
   /* margin-top:1em ; */
   margin-left: auto;
   margin-right: auto;
-  width:35em;
-  height:8em;
+  width:45em;
+  height:10em;
   padding:1.5rem;
-  background-color: rgba(35, 58, 12,0.64) ;
+  background-color: rgba(22, 38, 6, 0.4) ;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+-webkit-box-shadow: 10px 10px 5px -6px rgba(245, 238, 28, 0.61);
+-moz-box-shadow: 10px 10px 5px -6px rgba(231, 224, 26, 0.61);
+box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
+
+  /* background-color: rgba(35, 58, 12,0.64) ;
   -webkit-box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
   -moz-box-shadow: -1px 12px 20px -6px rgba(88,80,79,0.79);
-  box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
+  box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61); */
 }
 
 #pow-h1tag{
-  color:#f1f5ec;
+  color:#ffffff;
   margin-top:1em;
   font-size: 3.2em;
-  text-shadow: 1px 1px 2px rgb(8, 40, 6);
+  /* text-shadow: 1px 1px 2px rgb(8, 40, 6); */
 
 }
 
@@ -142,19 +152,19 @@ font-weight: 600;
   margin-top:15em ;
   width:20em;
   height:15rem;
-  background-color: rgba(89, 152, 26, 0.5) ;
+  background-color: rgba(22, 38, 6, 0.4) ;
   font-family: 'Open Sans Condensed', sans-serif;
 
--webkit-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
--moz-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
-box-shadow: 10px 10px 5px -6px rgba(231,166,26,0.61);
+-webkit-box-shadow: 10px 10px 5px -6px rgba(245, 238, 28, 0.61);
+-moz-box-shadow: 10px 10px 5px -6px rgba(231, 224, 26, 0.61);
+box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
 } 
 #info-ptag{
   font-size: 1.2em;
   color:white;
   text-align: left;
   font-family: 'Open Sans Condensed', sans-serif;
-
+  font-weight: 600;
 }
 
 
