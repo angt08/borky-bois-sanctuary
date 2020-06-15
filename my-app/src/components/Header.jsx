@@ -6,13 +6,11 @@ export default function Header() {
 
     <div className="header">
 
+      <Link to="/info">
       <h1> Borky Boys Sanctuary</h1>
+      </Link>
     
       <div className="nav-flexbox"> 
-      <Link to="/info" className="nav-links">
-       about
-      </Link>
-      
       <Link to="/adopt-a-dog" className="nav-links">
       adopt
       </Link>

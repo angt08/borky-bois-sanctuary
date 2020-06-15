@@ -27,6 +27,7 @@ h1{
   height:3.5em;
   padding:.7em;
   z-index: 1;
+  z-index: 1;
 }
 .nav-links {
   margin:3%;
@@ -35,6 +36,7 @@ h1{
   text-shadow: 1px 1px 2px rgb(35, 84, 46);;
 }
 a{
+  z-index: 1;
   text-decoration: none;
   outline: none;
 }
@@ -50,7 +52,7 @@ p{
   flex-direction: row;
   justify-content: center;
 
-  width: 40%;
+  width: 30%;
   /* margin-top: 1%; */
   margin-left: auto;
   /* padding: 2em; */
