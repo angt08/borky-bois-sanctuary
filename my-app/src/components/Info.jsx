@@ -4,7 +4,7 @@ export default function Info() {
   return (
     <div className="info-banner">
    
-
+      
       <div id="info-div">
 
         <p id="info-ptag">

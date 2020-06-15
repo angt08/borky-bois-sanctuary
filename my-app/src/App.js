@@ -13,9 +13,6 @@ import Footer from './components/Footer';
 
 
 
-
-
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -31,13 +28,14 @@ class App extends React.Component {
     return (
 
       <div className="app">
-        <Header />
+        
 
+        <Header />
         
         <Route
           path="/info"
           render={() =>
-            
+       
          <Info/>
           }
         />
