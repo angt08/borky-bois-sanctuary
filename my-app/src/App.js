@@ -31,16 +31,11 @@ class App extends React.Component {
         
 
         <Header />
-        
-        <Route
-          path="/info"
-          render={() =>
-       
-         <Info/>
-          }
-        />
 
-        
+        <Route exact path="/" 
+          component={Info} 
+        /> 
+
          <Route
           path="/adopt-a-dog"
           render={() =>

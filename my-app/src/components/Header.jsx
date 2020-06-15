@@ -6,7 +6,7 @@ export default function Header() {
 
     <div className="header">
 
-      <Link to="/info">
+      <Link to="/">
       <h1> Borky Boys Sanctuary</h1>
       </Link>
     
