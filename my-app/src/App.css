@@ -218,11 +218,11 @@ button{
 /*  Pooch of hte week css here  */
 
 #robert{
-  margin:0 auto;
-  padding: .7rem;
+  margin:.8em ;
+
   width:20em;
   height:22em;
-  border: .5em solid rgba(22, 38, 6, 0.4);
+  border: .5em solid rgb(55, 95, 15);
   border-radius: 0.2em;
   object-fit: cover;
   
