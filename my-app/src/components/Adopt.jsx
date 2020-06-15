@@ -3,27 +3,33 @@ import React from 'react'
 const Adopt = (props) => {
 
   return (
-    <div className="adopt-adog">
+    // <div className="adopt-adog">
+    <div className="dog-flexbox-item-1">
 
-      <img id="all-dogs" src={props.dog.image} alt="dog" />
+      <img 
+        src={props.dog.image}
+        alt="dog"
+      />
       
-      <p id="dog-name">
-        {props.dog.name}
-      </p>
 
-      <p id="dog-stats">
-        Age: 
-        {props.dog.age}
+      <div id="dog-stats">
+     
+        {props.dog.name}
         <br />
-        Breed:
-         {props.dog.breed}
+         Breed : {props.dog.breed}
         <br />
-        Days in Sanctuary:
+      
+        Days in Sanctuary : 
         {props.dog.daysIn}
-      </p>
+        <br />
+
       <button>
-        More on this pooch
-        </button>
+          More on this pooch
+      </button>
+        
+      </div>
+
+      
     </div>
 
   )

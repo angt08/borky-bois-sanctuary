@@ -8,17 +8,17 @@ export default function Header() {
 
       <h1> Borky Boys Sanctuary</h1>
     
-      <div className="nav"> 
+      <div className="nav-flexbox"> 
       <Link to="/info" className="nav-links">
-       ABOUT US
+       about
       </Link>
       
       <Link to="/adopt-a-dog" className="nav-links">
-       ADOPT
+      adopt
       </Link>
 
       <Link to="/pooch-of-the-week" className="nav-links">
-      BORKY OF THE WEEK
+     dog of the week
       </Link>
 </div>
 

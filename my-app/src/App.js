@@ -8,7 +8,7 @@ import Banner from './components/Banner';
 import PowBanner from './components/PowBanner';
 import Adopt from './components/Adopt';
 import { Route, Link } from "react-router-dom";
-import Robert from './images/robert.jpg';
+// import Robert from './images/robert.jpg';
 import Footer from './components/Footer';
 
 
@@ -25,23 +25,19 @@ class App extends React.Component {
   }
 
 
-  
-
-
-
-
 
   render() {
 
     return (
 
-      <div className="App">
+      <div className="app">
         <Header />
 
         
         <Route
           path="/info"
-          render={() => 
+          render={() =>
+            
          <Info/>
           }
         />
@@ -59,7 +55,10 @@ class App extends React.Component {
           path="/adopt-a-dog"
           render={() =>
 
-            <div className="dog-grid">
+
+
+
+            <div className="dog-flexbox">
              
               { dogdata.map((item) => {
                 return <Adopt
@@ -80,7 +79,7 @@ class App extends React.Component {
             </>
           }
         />
-        <Footer/>
+        {/* <Footer/> */}
 
 
       </div>

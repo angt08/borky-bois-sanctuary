@@ -4,9 +4,11 @@ export default function PowBanner() {
 
   return (
     <div className="pow-banner">
-      <h1 id="pow-h1tag">
+      
+      <h1 className="banner-info">
         Borky Boy of the week!
       </h1>
+
       <div id="pow-div">
 
         <p id="pow-ptag">

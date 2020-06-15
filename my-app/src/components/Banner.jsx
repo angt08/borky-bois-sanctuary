@@ -5,12 +5,10 @@ export default function Banner() {
     
     <div className="banner">
 
-      <p id="banner-info"> 
-       
-         <br/>
+      <h1 className="banner-info"> 
         All dogs listed below are 
          ready for adoption!
-     </p>
+      </h1>
       
     </div> 
   )
