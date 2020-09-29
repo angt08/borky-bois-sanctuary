@@ -5,7 +5,7 @@ export default function PowBanner() {
   return (
     <div className="pow-banner">
       
-      <h1 className="banner-info">
+      <h1 className="banner-info" id="pow-banner-h1">
         Borky Boy of the week!
       </h1>
 
