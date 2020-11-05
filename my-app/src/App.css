@@ -188,8 +188,8 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
   padding: 1em 1em 1em 1em;
   min-height: 5em;
   background: white;
-  border: solid .3em rgb(116, 202, 218) ;
-  border-radius: .8em;
+  border: solid .2em rgb(220, 226, 226) ;
+  /* border-radius: .8em; */
 }
 
 #dog-name h3{
@@ -233,8 +233,8 @@ button{
 
   width:20em;
   height:22em;
-  border: .5em solid rgb(55, 95, 15);
-  border-radius: 0.2em;
+  border: .2em solid rgb(55, 95, 15);
+ 
   object-fit: cover;
   
 
