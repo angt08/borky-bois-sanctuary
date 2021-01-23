@@ -12,6 +12,7 @@ export default function Header() {
     
       <div className="nav-flexbox"> 
       <Link to="/adopt-a-dog" className="nav-links">
+      <i className="fas fa-paw"></i>
       adopt
       </Link>
 

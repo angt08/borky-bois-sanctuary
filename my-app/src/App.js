@@ -28,8 +28,7 @@ class App extends React.Component {
     return (
 
       <>
-        
-
+    
         <Header />
 
         <Route exact path="/" 

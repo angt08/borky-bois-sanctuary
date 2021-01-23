@@ -15,7 +15,9 @@ const Adopt = (props) => {
       <div id="dog-stats">
      
         <h3 id="dog-name">
-        {props.dog.name}
+          {props.dog.name}
+          <i className="fas fa-paw"></i>
+          
         </h3>
 
         <p id="dog-breed-days">

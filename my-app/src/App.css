@@ -176,7 +176,7 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
   flex-wrap: wrap;
   align-items: center; 
   justify-content: space-evenly;
-  margin:.5em .5em .5em .5em;
+  
 }
 
 .dog-flexbox-item-1{
@@ -184,14 +184,27 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
   padding: 1em 1em 1em 1em;
   min-height: 5em;
   background: white;
-  border: solid .9px rgb(220, 226, 226) ;
+  border: solid .9px rgb(220, 226, 226);
   border-radius: .8em;
+ 
 }
+
+i{
+  margin-left:.8em;
+  margin-right: .2em;
+  color: rgb(47, 89, 198);
+}
+
+ #heart:active {
+}
+
+
+
 
 #dog-name{
   font-size: 2em;
   font-weight:600;
-  border-bottom: solid .9px rgb(220, 226, 226) ;
+
 }
 #dog-stats{
   text-align: center;
@@ -203,11 +216,14 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
   text-align: left;
   
   font-family: 'Open Sans Condensed', sans-serif;
+  border-top: solid .9px rgb(220, 226, 226) ;
+  border-bottom: solid .9px rgb(220, 226, 226);
+
 }
 
 img{
-  width: 22em;
-  height:22em;
+  width: 20em;
+  height:20em;
   border-radius: .3em;
   object-fit: cover;
 }
@@ -215,7 +231,7 @@ img{
 button{
   font-weight: 700;
   background-color:rgb(221, 229, 237);
-  color:rgb(13, 51, 112);;
+  color:rgb(47, 89, 198);
   border-radius: .7em;
   border:none;
   width:10rem;
@@ -231,8 +247,7 @@ button{
 
 #robert{
   margin:.8em ;
-
-  width:20em;
+  width:22em;
   height:22em;
   border: .2em solid rgb(55, 95, 15);
  
