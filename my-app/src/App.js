@@ -27,7 +27,7 @@ class App extends React.Component {
 
     return (
 
-      <div className="app">
+      <>
         
 
         <Header />
@@ -47,9 +47,6 @@ class App extends React.Component {
         <Route
           path="/adopt-a-dog"
           render={() =>
-
-
-
 
             <div className="dog-flexbox">
              
@@ -75,7 +72,7 @@ class App extends React.Component {
         {/* <Footer/> */}
 
 
-      </div>
+      </>
     );
   }
 }

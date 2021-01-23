@@ -132,14 +132,11 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
 }
 
 .info-banner{
-  top: 0;
-  /* display: inline-block; */
   position: absolute;
   width: 100%;
   background-image: url(banners/dogmix.jpg);
-  /* background-attachment: fixed; */
   background-position: center;
-  height: 50rem;
+  height: 100vh;
   /* z-index: -1; */
   background-size: cover;
 }
@@ -149,7 +146,6 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
   margin-left:3.5em;
   margin-top:15em ;
   width:20em;
-  height:15rem;
   background-color: rgba(22, 38, 6, 0.4) ;
   font-family: 'Open Sans Condensed', sans-serif;
 
@@ -188,39 +184,44 @@ box-shadow: 10px 10px 5px -6px rgba(240, 240, 14, 0.80);
   padding: 1em 1em 1em 1em;
   min-height: 5em;
   background: white;
-  border: solid .2em rgb(220, 226, 226) ;
-  /* border-radius: .8em; */
+  border: solid .9px rgb(220, 226, 226) ;
+  border-radius: .8em;
 }
 
-#dog-name h3{
-  /* padding: .7em; */
+#dog-name{
   font-size: 2em;
-  font-weight: 700;
+  font-weight:600;
+  border-bottom: solid .9px rgb(220, 226, 226) ;
 }
 #dog-stats{
-  /* padding:.5em; */
-  font-size: 1.2em;
-  font-weight: 600;
-  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+#dog-breed-days{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: left;
   
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 img{
-  width:20em;
-  height:20em;
+  width: 22em;
+  height:22em;
   border-radius: .3em;
   object-fit: cover;
 }
 
 button{
-  margin:.7em;
-  background-color:white;
+  font-weight: 700;
+  background-color:rgb(221, 229, 237);
   color:rgb(13, 51, 112);;
   border-radius: .7em;
   border:none;
   width:10rem;
   padding:.8em;
   text-decoration: none;
+  
 }
 
 
