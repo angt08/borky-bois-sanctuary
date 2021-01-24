@@ -6,34 +6,43 @@ export default function Header() {
 
     <div className="header">
 
-      
-      
-      <div className="logo">
-
+      <div className="logo-div">
       <img  id="logo" src={logo} />
       <Link to="/">
-        <h1> Borky Boys Sanctuary</h1>
+      <h1>Borky Boys Sanctuary</h1>
       </Link>
-
       </div>
 
-      
 
-      <Link to="/adopt-a-dog" className="nav-links">
-      adopt
+      <div className="nav-menu">
+        <ul>  
+          <li>
+      <Link to="/adopt-a-dog" >
+     Our Dogs
       <i className="fas fa-paw"></i>
       </Link>
+          </li>  
 
-      <Link to="/pooch-of-the-week" className="nav-links">
-        dog of the week 
+          <li>
+
+      <Link to="/pooch-of-the-week">
+      Spotlight
       </Link>
+          </li>
       
-      {/* <Link to=" " className="nav-links">
-          community
-      </Link> */}
-        
-     
+          <li>
 
+      <Link to=" " >
+      Contact
+      </Link>
+          </li>
+     </ul>
+      </div>
+
+      <button id="menu-search">
+      <i class="fas fa-search-location"></i>
+      search
+      </button>
 
     </div>
   )
