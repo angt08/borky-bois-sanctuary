@@ -15,10 +15,15 @@ const Adopt = (props) => {
       <div id="dog-stats">
      
         <h3 id="dog-name">
+          <i id="paw" className="fas fa-paw"></i>
           {props.dog.name}
-          <i className="fas fa-paw"></i>
-          
+          {/* <i id="paw" className="fas fa-paw"></i> */}
         </h3>
+
+       
+
+       
+
 
         <p id="dog-breed-days">
          Breed : {props.dog.breed}
@@ -28,7 +33,8 @@ const Adopt = (props) => {
         </p>
 
       <button>
-          More on this pooch
+          More
+          <i id="info"className="fas fa-info-circle"></i>
       </button>
         
       </div>

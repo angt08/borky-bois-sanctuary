@@ -5,7 +5,7 @@ export default function Banner() {
     
     <div className="banner">
 
-      <h1 className="banner-info"> 
+      <h1  className="banner-info"> 
         All dogs listed below are 
          ready for adoption!
       </h1>
